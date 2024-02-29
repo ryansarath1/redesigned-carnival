@@ -8,7 +8,7 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
     {
         type: "input", 
-        name: "title",
+        name: "redesigned-carnival",
         message: "What's the title of your application?"
     },
     {
@@ -38,13 +38,13 @@ const questions = [
     },
     {
         type: "input", 
-        name: "Github",
-        message: "Enter you Github username"
+        name: "ryansarath1",
+        message: "Enter your Github"
     },
     {
         type: "input", 
-        name: "Email",
-        message: "Enter your email address"
+        name: "sarathryan@yahoo.com",
+        message: "Email"
     },
 
 ];
