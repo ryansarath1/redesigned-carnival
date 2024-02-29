@@ -15,6 +15,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
   
   ## Description
+  ${data.description}
   ## Table of Content 
   * [installation](#installation)
   * [usage](#usage)
@@ -24,26 +25,33 @@ function generateMarkdown(data) {
   
 
   ## Installation
+  ${data.installation}
 
 
 
 
   ## Usage
+  ${data.usage}
 
 
 
   
   ## contributing
+  ${data.contributing}
 
 
 
   
   ## Test 
+  ${data.test}
+
 
 
 
   
   ## Questions
+  If you have any questions, email me at[${data.Email}](mailto:${data.Email}.com)
+  Check out my Github [${data.Github}](https://github.com/${data.Github}/)
 
 `;
 }
