@@ -10,7 +10,42 @@ const questions = [
         type: "input", 
         name: "title",
         message: "What's the title of your application?"
-    }
+    },
+    {
+        type: "input", 
+        name: "description",
+        message: "Enter a description of your application"
+    },
+    {
+        type: "input", 
+        name: "installation",
+        message: "What do you need to install?"
+    },
+    {
+        type: "input", 
+        name: "usage",
+        message: "How do you use this application?"
+    },
+    {
+        type: "input", 
+        name: "contributing",
+        message: "Are there any contributors in the application?"
+    },
+    {
+        type: "input", 
+        name: "test",
+        message: "Is there any testing software?"
+    },
+    {
+        type: "input", 
+        name: "Github",
+        message: "Enter you Github username"
+    },
+    {
+        type: "input", 
+        name: "Email",
+        message: "Enter your email address"
+    },
 
 ];
 
