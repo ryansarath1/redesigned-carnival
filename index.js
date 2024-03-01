@@ -8,17 +8,17 @@ const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
     {
         type: "input", 
-        name: "redesigned-carnival",
+        name: "Redesigned-carnival",
         message: "What's the title of your application?"
     },
     {
         type: "input", 
-        name: "description",
+        name: "This application can be useful for Node",
         message: "Enter a description of your application"
     },
     {
         type: "input", 
-        name: "installation",
+        name: "Install Inquirer version@8.2.4",
         message: "What do you need to install?"
     },
     {
